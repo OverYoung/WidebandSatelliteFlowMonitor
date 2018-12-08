@@ -1,0 +1,205 @@
+2018-11-12 10:53:45,201 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\configLoad.py", line 21, in getConfig
+    configFile.read(configPath)
+  File "D:\Program Files\Python36\lib\configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "D:\Program Files\Python36\lib\configparser.py", line 1015, in _read
+    for lineno, line in enumerate(fp, start=1):
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xaf in position 1165: illegal multibyte sequence
+2018-11-12 10:53:45,244 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'login'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\configLoad.py", line 30, in getConfig
+    url = configFile.get("login", "loginUrl")
+  File "D:\Program Files\Python36\lib\configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "D:\Program Files\Python36\lib\configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'login'
+2018-11-12 11:01:00,000 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\configLoad.py", line 21, in getConfig
+    configFile.read(configPath)
+  File "D:\Program Files\Python36\lib\configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "D:\Program Files\Python36\lib\configparser.py", line 1015, in _read
+    for lineno, line in enumerate(fp, start=1):
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xaf in position 1165: illegal multibyte sequence
+2018-11-12 11:01:00,015 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'login'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\configLoad.py", line 30, in getConfig
+    url = configFile.get("login", "loginUrl")
+  File "D:\Program Files\Python36\lib\configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "D:\Program Files\Python36\lib\configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'login'
+2018-11-12 11:02:48,191 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\configLoad.py", line 21, in getConfig
+    configFile.read(configPath)
+  File "D:\Program Files\Python36\lib\configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "D:\Program Files\Python36\lib\configparser.py", line 1015, in _read
+    for lineno, line in enumerate(fp, start=1):
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xaf in position 1165: illegal multibyte sequence
+2018-11-12 11:02:48,194 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'login'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\configLoad.py", line 30, in getConfig
+    url = configFile.get("login", "loginUrl")
+  File "D:\Program Files\Python36\lib\configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "D:\Program Files\Python36\lib\configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'login'
+2018-11-12 11:03:08,421 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\configLoad.py", line 21, in getConfig
+    configFile.read(configPath)
+  File "D:\Program Files\Python36\lib\configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "D:\Program Files\Python36\lib\configparser.py", line 1015, in _read
+    for lineno, line in enumerate(fp, start=1):
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xaf in position 1165: illegal multibyte sequence
+2018-11-12 11:03:08,424 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'login'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\configLoad.py", line 30, in getConfig
+    url = configFile.get("login", "loginUrl")
+  File "D:\Program Files\Python36\lib\configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "D:\Program Files\Python36\lib\configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'login'
+2018-11-12 11:03:35,220 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\configLoad.py", line 21, in getConfig
+    configFile.read(configPath)
+  File "D:\Program Files\Python36\lib\configparser.py", line 697, in read
+    self._read(fp, filename)
+  File "D:\Program Files\Python36\lib\configparser.py", line 1015, in _read
+    for lineno, line in enumerate(fp, start=1):
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xaf in position 1165: illegal multibyte sequence
+2018-11-12 11:03:35,226 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Program Files\Python36\lib\configparser.py", line 1138, in _unify_values
+    sectiondict = self._sections[section]
+KeyError: 'login'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\configLoad.py", line 30, in getConfig
+    url = configFile.get("login", "loginUrl")
+  File "D:\Program Files\Python36\lib\configparser.py", line 781, in get
+    d = self._unify_values(section, vars)
+  File "D:\Program Files\Python36\lib\configparser.py", line 1141, in _unify_values
+    raise NoSectionError(section)
+configparser.NoSectionError: No section: 'login'
+2018-11-12 11:09:27,633 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\satelliteFlow.py", line 52, in search
+    find_password = driver.find_element_by_xpath(xpath_password)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Windows NT 10.0.17134 x86_64)
+
+2018-11-12 11:09:39,711 - ERROR - log.py[:42] - Exception occurred when find the position of verification code
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\satelliteFlow.py", line 62, in search
+    find_verificationCodePic = driver.find_element_by_xpath(xpath_verificationCodePic)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Windows NT 10.0.17134 x86_64)
+
+2018-11-12 11:09:51,739 - ERROR - log.py[:42] - Exception occurred when input the verification code
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\satelliteFlow.py", line 82, in search
+    find_verificationCode = driver.find_element_by_xpath(xpath_verificationCode)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Windows NT 10.0.17134 x86_64)
+
+2018-11-12 11:10:03,756 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\satelliteFlow.py", line 96, in search
+    find_search = driver.find_element_by_xpath(xpath_search)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Windows NT 10.0.17134 x86_64)
+
+2018-11-12 11:22:18,585 - ERROR - log.py[:42] - Exception occurred, check the error.log to read the detail
+Traceback (most recent call last):
+  File "D:\Users\39009\Pycharm\WidebandSatelliteFlowMonitor\satelliteFlow.py", line 96, in search
+    find_search = driver.find_element_by_xpath(xpath_search)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='vm']/div[1]/div[2]/div[1]/div[2]/div[1]/a"}
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Windows NT 10.0.17134 x86_64)
+
